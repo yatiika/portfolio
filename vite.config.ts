@@ -9,7 +9,7 @@ const __dirname = dirname(__filename);
 
 export default defineConfig(({ mode }) => {
   return {
-    base: "/my_portfolio/",
+    base: "/portfolio/",
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
